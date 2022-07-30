@@ -1,0 +1,11 @@
+.txtWhite {
+    color: var(--white);
+}
+
+.txtBluePrimary {
+    color: var(--bluePrimary)
+}
+
+.txt600 {
+    font-weight: 600;
+}

@@ -1,0 +1,153 @@
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header > #navDesktop {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+header > #navDesktop > a > img {
+    width: 67px;
+}
+
+header > #navDesktop > ul {
+    display: flex;
+    gap: 25px;
+}
+
+header ul > li {
+    list-style-type: none;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+header ul > li > a {
+    text-decoration: none;
+    color: var(--white);
+    padding-bottom: 5px;
+    position: relative;
+}
+
+header ul > li > a::before {
+    content: '';
+    width: 0;
+    height: 3px;
+    background-color: var(--white);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+header ul > li > a:hover::before {
+    width: 100%;
+}
+
+@media only screen and (max-width: 1200px) {
+    header > #navDesktop > ul > li {
+        font-size: 16px;
+    }
+
+    header > #navDesktop > a > img {
+        width: 57px;
+    }
+}
+
+/* MOBILE */
+header > #navMobile {
+    width: 100%;
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > #navMobile > a > img {
+    width: 57px;
+}
+
+header > #navMobile > figure {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+header > #navMobile > figure > div {
+    width: 100%;
+    height: 3.5px;
+    background-color: var(--white);
+}
+
+header > #navMobile > ul {
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--bluePrimary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+header > #navMobile > ul > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    right: 0;
+}
+
+header > #navMobile > ul > div > img {
+    width: 100px;
+}
+
+header > #navMobile > ul > a {
+    height: 50px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+@media only screen and (max-width: 700px) {
+    header > #navDesktop {
+        display: none;
+    }
+
+    header > #navMobile {
+        display: flex;
+    }
+
+    header > #btnConfirm {
+        display: none;
+    }
+}

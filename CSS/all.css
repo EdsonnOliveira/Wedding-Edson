@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    letter-spacing: 1.5px;
+}
+
+.apresentation {
+    width: 100%;
+    height: 100vh;
+    background: url('../IMG/Photos/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recepetion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.recepetion > #saveTheDate {
+    width: 250px;
+}
+
+.recepetion > #brideGroom {
+    width: 600px;
+}
+
+.recepetion > h1 {
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.recepetion > a {
+    display: none;
+}
+
+@media only screen and (max-width: 1200px) {
+    .recepetion > #saveTheDate {
+        width: 200px;
+    }
+
+    .recepetion > #brideGroom {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .recepetion > #brideGroom {
+        width: 370px;
+    }
+
+    .recepetion > h1 {
+        font-size: 18px;
+    }
+
+    .recepetion > a {
+        display: flex;
+    }
+}
+
+:root {
+    --bluePrimary: #A3C5DF;
+    --blueSecondary: #4B7BA8;
+    --greenPrimary: #3D4C40;
+    --greenSecondary: #859176;
+    --pink: #F4AD95;
+    --brownPrimary: #9C7460;
+    --browSecondary: #AF887E;
+    
+    --black: #363636;
+    --white: #FAFAFA;
+}
