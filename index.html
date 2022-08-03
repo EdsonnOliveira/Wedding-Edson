@@ -12,6 +12,9 @@
         <link rel="stylesheet" href="CSS/header.css">
         <link rel="stylesheet" href="CSS/button.css">
         <link rel="stylesheet" href="CSS/text.css">
+        <link rel="stylesheet" href="CSS/img.css">
+        <link rel="stylesheet" href="CSS/index.css">
+        <link rel="stylesheet" href="CSS/footer.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     </head>
     <body>
@@ -19,19 +22,19 @@
             <header>
                 <nav id="navDesktop">
                     <a href="index.html">
-                        <img src="IMG/Logo/Simples 2.png" alt="">
+                        <img src="IMG/Logo/Simples 2.png" alt="" loading="lazy">
                     </a>
                     <ul>
-                        <li><a href="">Início</a></li>
-                        <li><a href="">Noivos</a></li>
-                        <li><a href="">História</a></li>
-                        <li><a href="">Pessoas</a></li>
+                        <li><a href="#">Início</a></li>
+                        <li><a onclick="scrollToElement('#they')">Noivos</a></li>
+                        <li><a onclick="scrollToElement('#history')">História</a></li>
+                        <li><a onclick="scrollToElement('#honor')">Pessoas</a></li>
                         <li><a href="">Presentes</a></li>
                     </ul>
                 </nav>
                 <nav id="navMobile">
                     <a href="index.html">
-                        <img src="IMG/Logo/Simples 2.png" alt="">
+                        <img src="IMG/Logo/Simples 2.png" alt="" loading="lazy">
                     </a>
                     <figure>
                         <div></div>
@@ -40,7 +43,7 @@
                     </figure>
                     <ul>
                         <div>
-                            <img src="IMG/Logo/Completa.png" alt="">
+                            <img src="IMG/Logo/Completa.png" alt="" loading="lazy">
                         </div>
                         <li><a href="">Início</a></li>
                         <li><a href="">Noivos</a></li>
@@ -53,12 +56,252 @@
                 <a class="button txtWhite" id="btnConfirm">Confirmar Presença</a>
             </header>
             <div class="recepetion">
-                <img id="saveTheDate" src="IMG/Vector/SaveTheDate.png" alt="">
-                <img id="brideGroom" src="IMG/Vector/Noivos.png" alt="">
+                <img id="saveTheDate" src="IMG/Vector/SaveTheDate.png" alt="" loading="lazy">
+                <img id="brideGroom" src="IMG/Vector/brideGroom.png" alt="" loading="lazy">
                 <h1 class="txtWhite">12 de Novembro de 2022</h1>
                 <a class="button txtWhite">Confirmar Presença</a>
             </div>
         </section>
+        <main>
+            <section class="container" id="they">
+                <img src="IMG/Vector/alliances.png" alt="Aliancas" class="icon medium" loading="lazy">
+                <img src="IMG/Vector/brideGroomText.png" alt="Noivos" loading="lazy">
+                <h1 class="txtTitle txtBlack">Conheça mais um pouco<br>desse casal</h1>
+                <section class="container noPadding" id="containerBrideGroom">
+                    <article>
+                        <img src="IMG/Photos/bride.jpg" alt="Noiva" loading="lazy">
+                        <img src="IMG/Vector/Amanda.png" alt="Amanda" loading="lazy">
+                        <h3 class="txtBlack txt500 txtCenter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel quam elit.</h3>
+                        <a href="">
+                            <img src="IMG/Vector/instagram.webp" alt="" loading="lazy">
+                        </a>
+                    </article>
+                    <img src="IMG/Vector/hearth.png" alt="" loading="lazy">
+                    <article>
+                        <img src="IMG/Photos/groom.jpg" alt="Noivo" loading="lazy">
+                        <img src="IMG/Vector/Edson.png" alt="Edson" loading="lazy">
+                        <h3 class="txtBlack txt500 txtCenter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel quam elit.</h3>
+                        <a href="">
+                            <img src="IMG/Vector/instagram.webp" alt="" loading="lazy">
+                        </a>
+                    </article>
+                </section>
+            </section>
+        </main>
+        <main class="fullWidth">
+            <section class="container background" id="history">
+                <img src="IMG/Vector/history.png" alt="" loading="lazy">
+                <h1 class='txtTitle txtWhite txt300'>O que nos fez chegar<br>até aqui?</h1>
+                <h4 class="txtWhite txtCenter txt300">Lorem ipsum dolor sit amet, consectetur 
+                    adipiscing elit. Sed vitae convallis augue. Proin 
+                    nec sem in velit scelerisque accumsan eu sit amet 
+                    sapien. Nam sollicitudin, quam et ullamcorper 
+                    aliquam, est lacus interdum nibh, ut tincidunt orci 
+                    quam sollicitudin ex. Curabitur cursus fringilla 
+                    feugiat. Curabitur et maximus dui, eu viverra 
+                    dolor. Vivamus non eros erat. Pellentesque 
+                    habitant morbi tristique senectus et netus et 
+                    malesuada fames ac turpis egestas. Donec blandit 
+                    luctus arcu eget interdum. Nullam arcu eros, 
+                    dignissim id nulla eu, convallis laoreet augue. 
+                    Phasellus tortor mauris, mollis faucibus ultrices 
+                    tempor, aliquet ac massa. Morbi nisi tortor, 
+                    pulvinar ut consequat vel, pretium ac augue. 
+                    Aliquam vel turpis quis elit feugiat vulputate et 
+                    non nulla. Sed et dapibus dui. Fusce 
+                    condimentum euismod luctus.</h4>
+            </section>
+        </main>
+        <main class="fullWidth">
+            <section class="container background honor" id="honor">
+                <img src="IMG/Vector/honor.png" alt="" loading="lazy">
+                <article class="person big">
+                    <img src="IMG/Photos/yeshua.webp" alt="" loading="lazy">
+                    <h1 class="txtWhite txtCenter txt500">Jesus</h1>
+                    <h2 class="txtWhite txtCenter txt300">Irmão mais velho</h2>
+                </article>
+                <section class="container boxDivisor">
+                    <div class="boxes">
+                        <div>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Maria R.</h1>
+                                <h2 class="txtWhite txtCenter txt300">Avó da Noiva</h2>
+                            </article>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Cledson</h1>
+                                <h2 class="txtWhite txtCenter txt300">Pastor</h2>
+                            </article>
+                        </div>
+                        <div>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Amilson</h1>
+                                <h2 class="txtWhite txtCenter txt300">Pai da Noiva</h2>
+                            </article>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Eliana</h1>
+                                <h2 class="txtWhite txtCenter txt300">Mãe da Noiva</h2>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="boxes">
+                        <div>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Gladson</h1>
+                                <h2 class="txtWhite txtCenter txt300">Pastor</h2>
+                            </article>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt=""loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Maria P.</h1>
+                                <h2 class="txtWhite txtCenter txt300">Avó do Noivo</h2>
+                            </article>
+                        </div>
+                        <div>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt=""loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Edson</h1>
+                                <h2 class="txtWhite txtCenter txt300">Pai do Noivo</h2>
+                            </article>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt=""loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Nalva</h1>
+                                <h2 class="txtWhite txtCenter txt300">Mãe do Noivo</h2>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+            </section>
+        </main>
+        <main class="fullWidth">
+            <section class="container background honor">
+                <img src="IMG/Vector/godfathers.png" alt="" loading="lazy">
+                <section class="container boxDivisor">
+                    <div class="boxes">
+                        <div>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Letícia & Ribas</h1>
+                                <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
+                            </article>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Cida & Magno</h1>
+                                <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
+                            </article>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Gizelle & Hudson</h1>
+                                <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
+                            </article>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Rebeca & Lucas</h1>
+                                <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
+                            </article>
+                        </div>
+                        <div>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Letícia & Ribas</h1>
+                                <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
+                            </article>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Cida & Magno</h1>
+                                <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
+                            </article>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Gizelle & Hudson</h1>
+                                <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
+                            </article>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Rebeca & Lucas</h1>
+                                <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
+                            </article>
+                        </div>
+                        <div>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Letícia & Ribas</h1>
+                                <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
+                            </article>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Cida & Magno</h1>
+                                <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
+                            </article>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Gizelle & Hudson</h1>
+                                <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
+                            </article>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Rebeca & Lucas</h1>
+                                <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
+                            </article>
+                        </div>
+                </section>
+            </section>
+        </main>
+        <main class="fullWidth">
+            <section class="container background" id="kids">
+                <img src="IMG/Vector/especials.png" alt="" loading="lazy">
+                <section class="container boxDivisor">
+                    <div class="boxes">
+                        <div>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Jonathan</h1>
+                                <h2 class="txtWhite txtCenter txt300">Pajem</h2>
+                            </article>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Yasmin</h1>
+                                <h2 class="txtWhite txtCenter txt300">Daminha</h2>
+                            </article>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Isabelly</h1>
+                                <h2 class="txtWhite txtCenter txt300">Daminha</h2>
+                            </article>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Maria Eduarda</h1>
+                                <h2 class="txtWhite txtCenter txt300">Daminha</h2>
+                            </article>
+                        </div>
+                        <div>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">João Pedro</h1>
+                                <h2 class="txtWhite txtCenter txt300">Pajem</h2>
+                            </article>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Vallentina</h1>
+                                <h2 class="txtWhite txtCenter txt300">Daminha</h2>
+                            </article>
+                            <article class="person">
+                                <img src="IMG/Photos/godfather.jpg" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Isabella</h1>
+                                <h2 class="txtWhite txtCenter txt300">Daminha</h2>
+                            </article>
+                        </div>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <img src="IMG/Logo/Completa 2.png" alt="AmandaEEdson" loading="lazy">
+            <h4 class="txtCenter txtWhite txt500">Copyright © 2022 Amanda e Edson. Todos os direitos reservados.</h4>
+        </footer>
+        <script src='JS/anchor.js'></script>
     </body>
     <script src="JS/menu.js"></script>
 </html>

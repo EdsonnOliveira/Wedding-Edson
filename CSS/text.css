@@ -1,3 +1,4 @@
+/* COLOR */
 .txtWhite {
     color: var(--white);
 }
@@ -6,6 +7,38 @@
     color: var(--bluePrimary)
 }
 
+.txtBlack {
+    color: var(--black)
+}
+
+/* POSITION */
+.txtCenter {
+    text-align: center;
+}
+
+/* TYPE */
+.txtTitle {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+/* STYLE */
+.txt300 {
+    font-weight: 300;
+}
+
+.txt500 {
+    font-weight: 500;
+}
+
 .txt600 {
     font-weight: 600;
+}
+
+@media only screen and (max-width: 700px) {
+    .txtTitle {
+        font-size: 35px;
+    }
 }

@@ -1,0 +1,114 @@
+#containerBrideGroom {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#containerBrideGroom > article {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#containerBrideGroom > article > img:first-child {
+    width: 100%;
+    object-fit: contain;
+}
+
+#containerBrideGroom > article > img:nth-child(2) {
+    width: 150px;
+    margin-top: 10px;
+}
+
+#containerBrideGroom > article > h3 {
+    width: 80%;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+
+#containerBrideGroom > img {
+    width: 50px;
+}
+
+@media only screen and (max-width: 900px) {
+    #containerBrideGroom {
+        flex-direction: column;
+    }
+
+    #containerBrideGroom > img {
+        width: 70px;
+        margin: 40px 0;
+    }
+}
+
+#history {
+    background: url('../IMG/Photos/backgroundHistory.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#history > h4{
+    font-size: 20px;
+    width: 500px;
+}
+
+#honor {
+    height: calc(100vh + 200px);
+}
+
+.honor {
+    background: url('../IMG/Photos/backgroundHonor.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    gap: 80px;
+}
+
+.honor > img:first-child {
+    width: 500px;
+}
+
+.boxDivisor {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.boxDivisor > .boxes {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.boxDivisor > .boxes > div {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+@media only screen and (max-width: 800px) {
+    .boxDivisor {
+        flex-direction: column;
+    }
+
+    .boxDivisor > .boxes > div {
+        flex-direction: column;
+        gap: 50px
+    }
+}
+
+#kids {
+    background: url('../IMG/Photos/backgroundKids.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    gap: 80px
+}
+
+#kids > img:first-child {
+    width: 600px;
+}

@@ -6,7 +6,7 @@ header {
     justify-content: space-between;
     padding: 60px 20px;
     box-sizing: border-box;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;

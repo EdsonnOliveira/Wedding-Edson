@@ -1,0 +1,7 @@
+.icon {
+    object-fit: contain;
+}
+
+.icon.medium {
+    width: 70px;
+}
