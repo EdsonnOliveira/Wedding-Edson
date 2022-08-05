@@ -50,9 +50,18 @@
     background-attachment: fixed;
 }
 
-#history > h4{
+#history > h4 {
     font-size: 20px;
     width: 500px;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 800px) {
+    #history > h4 {
+        font-size: 18px;
+        width: 100%;
+        padding: 0 30px;
+    }
 }
 
 #honor {
@@ -90,13 +99,26 @@
 }
 
 @media only screen and (max-width: 800px) {
+    #honor {
+        height: max-content;
+    }
+
+    .honor > img:first-child {
+        width: 370px;
+    }
+
     .boxDivisor {
         flex-direction: column;
     }
 
+    .boxDivisor > .boxes {
+        gap: 0;
+    }
+
     .boxDivisor > .boxes > div {
         flex-direction: column;
-        gap: 50px
+        gap: 50px;
+        margin-bottom: 30px;
     }
 }
 
@@ -111,4 +133,10 @@
 
 #kids > img:first-child {
     width: 600px;
+}
+
+@media only screen and (max-width: 800px) {
+    #kids > img:first-child {
+        width: 400px;
+    }
 }
