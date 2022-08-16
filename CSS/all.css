@@ -17,6 +17,10 @@
     align-items: center;
 }
 
+.apresentation.medium {
+    height: 50vh;
+}
+
 .recepetion {
     display: flex;
     justify-content: center;

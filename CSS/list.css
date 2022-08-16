@@ -1,0 +1,41 @@
+.list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+}
+
+.listItem {
+    width: 350px;
+    height: 500px;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 1px 2px 15px 5px rgba(0,0,0,0.05);
+    transition: 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.listItem > img {
+    max-width: 250px;
+}
+
+.listItem:hover {
+    box-shadow: 1px 2px 15px 5px rgba(0,0,0,0.12)
+}
+
+.listItem > h2 {
+    font-size: 20px;
+}
+
+.listItem > h1 {
+    font-size: 24px;
+}
+
+.listItem > a {
+    padding: 13px 50px
+}

@@ -37,6 +37,10 @@
     font-weight: 600;
 }
 
+.txt800 {
+    font-weight: 800;
+}
+
 @media only screen and (max-width: 700px) {
     .txtTitle {
         font-size: 35px;

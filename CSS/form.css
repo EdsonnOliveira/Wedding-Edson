@@ -1,0 +1,60 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    outline: 0;
+    resize: none;
+}
+
+/* INPUT */
+input, textarea {
+    padding: 7px;
+    border: 1px solid var(--black);
+    border-radius: 7px;
+    font-size: 18px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFF;
+    padding: 10px 20px;
+    border-radius: 7px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* BACKGROUND */
+.button.btBlue {
+    background-color: var(--bluePrimary);
+    transition: 0.2s ease-in-out;
+}
+
+.button.button.btBlue:hover {
+    background-color: var(--blueSecondary);
+}
+
+.button.btBlueSecondary {
+    background-color: var(--blueSecondary);
+    transition: 0.2s ease-in-out;
+}
+
+.button.button.btBlueSecondary:hover {
+    background-color: var(--bluePrimary);
+}
+
+.button.btGreen {
+    background-color: var(--greenPrimary);
+    transition: 0.2s ease-in-out;
+}
+
+.button.button.btGreen:hover {
+    background-color: var(--greenSecondary);
+}

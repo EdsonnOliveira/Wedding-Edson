@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Lista de Presentes | Amanda & Edson</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="CSS/all.css">
+        <link rel="stylesheet" href="CSS/header.css">
+        <link rel="stylesheet" href="CSS/form.css">
+        <link rel="stylesheet" href="CSS/text.css">
+        <link rel="stylesheet" href="CSS/img.css">
+        <link rel="stylesheet" href="CSS/list.css">
+        <link rel="stylesheet" href="CSS/modal.css">
+        <link rel="stylesheet" href="CSS/footer.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    </head>
+    <body>
+        <section class="apresentation medium">
+            <header>
+                <nav id="navDesktop">
+                    <a href="index.html">
+                        <img src="IMG/Logo/Simples-2.webp" alt="" loading="lazy">
+                    </a>
+                    <ul>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a onclick="scrollToElement('#they')">Noivos</a></li>
+                        <li><a onclick="scrollToElement('#history')">História</a></li>
+                        <li><a onclick="scrollToElement('#honor')">Pessoas</a></li>
+                        <li><a href="">Presentes</a></li>
+                    </ul>
+                </nav>
+                <nav id="navMobile">
+                    <a href="index.html">
+                        <img src="IMG/Logo/Simples-2.webp" alt="" loading="lazy">
+                    </a>
+                    <figure>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </figure>
+                    <ul>
+                        <div>
+                            <img src="IMG/Logo/Completa.webp" alt="" loading="lazy">
+                        </div>
+                        <li><a href="index.html">Início</a></li>
+                        <li><a href="">Noivos</a></li>
+                        <li><a href="">História</a></li>
+                        <li><a href="">Pessoas</a></li>
+                        <li><a href="">Presentes</a></li>
+                        <a id="closeMenu" class="button txtBluePrimary txt600">Fechar Menu</a>
+                    </ul>
+                </nav>
+                <a class="button txtWhite" id="btnConfirm">Confirmar Presença</a>
+            </header>
+            <div class="recepetion">
+                <img id="saveTheDate" src="IMG/Vector/SaveTheDate.webp" alt="" loading="lazy">
+            </div>
+        </section>
+        <main>
+            <section class="container list">
+                <article class="listItem">
+                    <img src="IMG/Products/cafeteira.png" alt="">
+                    <h2 class="txtBlack txt600 txtCenter">Cafeteira Philco PH16 Inox Vermelho</h2>
+                    <h1 class="txtBlack txt800 txtCenter">R$ 129,90</h1>
+                    <a href="" class="button btBlue txtWhite txt500">Presentear</a>
+                </article>
+                <article class="listItem">
+                    <img src="IMG/Products/cafeteira.png" alt="">
+                    <h2 class="txtBlack txt600 txtCenter">Cafeteira Philco PH16 Inox Vermelho</h2>
+                    <h1 class="txtBlack txt800 txtCenter">R$ 129,90</h1>
+                    <a href="" class="button btBlue txtWhite txt500">Presentear</a>
+                </article>
+                <article class="listItem">
+                    <img src="IMG/Products/cafeteira.png" alt="">
+                    <h2 class="txtBlack txt600 txtCenter">Cafeteira Philco PH16 Inox Vermelho</h2>
+                    <h1 class="txtBlack txt800 txtCenter">R$ 129,90</h1>
+                    <a class="button btBlue txtWhite txt500" onclick="showModal(1, 'Cafeteira Philco PH16 Inox Vermelho', 129.9)">Presentear</a>
+                </article>
+            </section>
+            <section class="modalContainer">
+                <div class="backdrop"></div>
+                <section class="modal">
+                    <h1 class="txtBlack txtCenter txt500" id="nameProduct">Cafeteira Philco </h1>
+                    <form>
+                        <input type="hidden" name="idProduct" value="" id="idProduct">
+                        <input type="hidden" name="valueProduct" value="" id="valueProduct">
+                        <input type="text" name="name" placeholder="Nome Completo" class="txt400">
+                        <textarea name="message" placeholder="Mensagem" rows="5"></textarea>
+                        <button class="button btBlueSecondary txtWhite" id="btInPerson">Comprar Pessoalmente</button>
+                        <button class="button btGreen txtWhite">Valor no Pix</button>
+                    </form>
+                </section>
+            </section>
+        </main>
+        <footer>
+            <img src="IMG/Logo/Completa-2.webp" alt="AmandaEEdson" loading="lazy">
+            <h4 class="txtCenter txtWhite txt500">Copyright © 2022 Amanda e Edson. Todos os direitos reservados.</h4>
+        </footer>
+        <script src='JS/anchor.js'></script>
+        <script src='JS/modal.js'></script>
+    </body>
+    <script src="JS/menu.js"></script>
+</html>
