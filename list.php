@@ -1,4 +1,13 @@
-<?php include('PHP/conn.php') ?>
+<?php
+    include('PHP/conn.php');
+
+    if (isset($_GET['idProduct'])) {
+        $data = [$_GET['name'], $_GET['message'], $_GET['btType'], $_GET['idProduct']];
+        $SQL = $conn->prepare('UPDATE list SET GiverName=?, GiverMessage=?, GiverType=? WHERE ID=?');
+        $SQL->execute($data);
+        header("location: list.php?success");
+    }
+?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -45,17 +54,63 @@
             <section class="modalContainer">
                 <div class="backdrop"></div>
                 <section class="modal">
-                    <h1 class="txtBlack txtCenter txt500" id="nameProduct">Cafeteira Philco </h1>
                     <form>
-                        <input type="hidden" name="idProduct" value="" id="idProduct">
-                        <input type="hidden" name="valueProduct" value="" id="valueProduct">
-                        <input type="text" name="name" placeholder="Nome Completo" class="txt400">
-                        <textarea name="message" placeholder="Mensagem" rows="5"></textarea>
-                        <button class="button btBlueSecondary txtWhite" id="btInPerson">Comprar Pessoalmente</button>
-                        <button class="button btGreen txtWhite">Valor no Pix</button>
+                        <section id="form">
+                            <h1 class="txtBlack txtCenter txt500" id="nameProduct">Cafeteira Philco </h1>
+                            <input type="hidden" name="idProduct" value="" id="idProduct">
+                            <input type="hidden" name="valueProduct" value="" id="valueProduct">
+                            <input type="text" name="name" placeholder="Nome Completo" class="txt400" required>
+                            <textarea name="message" placeholder="Mensagem" rows="5" required></textarea>
+                            <button type="button" name="btType" value="1" class="button btBlueSecondary txtWhite" id="btInPerson">Comprar Pessoalmente</button>
+                            <button type="button" name="btType" value="2" class="button btGreen txtWhite" id="btPix">Valor no Pix</button>
+                        </section>
+                        <section id="inPerson">
+                            <img src="IMG/Logo/Simples.webp" alt="Logo" class="imgLogo">
+                            <h3 class="txtBlack txtCenter txt500" style="max-width: 400px; padding: 50px 0;">Olá,<br>
+                                Vimos que você selecionou este
+                                item para comprar pessoalmente.
+                                Fique a vontade para comprar na loja que desejar.
+                                Pedimos que contate os noivos para combinarem como será o ato de entrega.</h3>
+                            <div>
+                                <button type="button" name="btType" value="1" class="button btBlueSecondary txtWhite btBack">Voltar</button>
+                                <button name="btType" value="1" class="button btGreen txtWhite" id="btPix">Confirmar</button>
+                            </div>
+                        </section>
+                        <section id="pix">
+                            <img src="IMG/Logo/Simples.webp" alt="Logo" class="imgLogo">
+                            <h3 class="txtBlack txtCenter txt500">Para transferir o valor, leia o QR CODE abaixo,<br>
+                                ou se desejar, utilize a chave Pix descrita.</h3>
+                            <img src="IMG/PIX.jpeg" alt="PIX" class="imgPix">
+                            <h2 class="txtBlack txtCenter txt600">Chave Pix: (61) 98411-1397</h2>
+                            <h3 class="txtBlack txtCenter txt600" style="margin-top: -20px">C6 Bank | Amanda Jessy Dantas Martins</h3>
+                            <div>
+                                <button type="button" name="btType" value="1" class="button btBlueSecondary txtWhite btBack">Voltar</button>
+                                <button name="btType" value="2" class="button btGreen txtWhite" id="btPix">Confirmar</button>
+                            </div>
+                        </section>
                     </form>
                 </section>
             </section>
+            <?php
+                if (isset($_GET['success'])) {
+            ?>
+            <section class="modalContainer show">
+                <div class="backdrop"></div>
+                <section class="modal">
+                    <form>
+                        <section id="form" style="align-items: center; gap: 20px;">
+                            <img src="IMG/Logo/Simples.webp" alt="Logo" class="imgLogo">
+                            <img src="IMG/Vector/ty.png" alt="" id="ty">
+                            <img src="IMG/Vector/brideGroom2.png" alt="" id="brideGroom">
+                            <div>
+                                <a type="button" href="list.php" class="button btBlueSecondary txtWhite btBack">Continuar na Lista</a>
+                                <a name="btType" href="index.php" class="button btGreen txtWhite" id="btPix">Página Inicial</a>
+                            </div>
+                        </section>
+                    </form>
+                </section>
+            </section>
+            <?php } ?>
         </main>
     </body>
     <?php include('Components/footer.php') ?>
