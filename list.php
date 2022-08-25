@@ -26,7 +26,7 @@
         <main>
             <section class="container list">
                 <article class="listItem">
-                    <img src="IMG/Products/pix.png" alt="">
+                    <img src="IMG/Products/pix.png" alt="" loading='lazy'>
                     <h1 class="txtBlack txt800 txtCenter">Preferência<br>dos Noivos</h1>
                     <h2 class="txtBlack txt600 txtCenter">PIX de qualquer valor</h2>
                     <a class="button btPix txtWhite txt500" onclick="showModal(0, 'Qualquer valor no PIX', '0')">Presentear</a>
@@ -48,7 +48,7 @@
                         $color = $value['GiverType'] == 0 ? 'btBlue' : 'btGreen';
                         
                         echo "<article class='listItem $type'>";
-                            echo "<img src='IMG/Products/$image.webp' alt='$name'>";
+                            echo "<img src='IMG/Products/$image.webp' alt='$name' loading='lazy'>";
                             echo "<h2 class='txtBlack txt600 txtCenter'>$name</h2>";
                             echo "<h1 class='txtBlack txt800 txtCenter'>R$ $price</h1>";
                             echo '<a class="button ' . $color . ' txtWhite txt500" onclick="' . $showModal . '">' . $text . '</a>';
@@ -70,7 +70,7 @@
                             <button type="button" name="btType" value="2" class="button btGreen txtWhite" id="btPix">Valor no Pix</button>
                         </section>
                         <section id="inPerson">
-                            <img src="IMG/Logo/Simples.webp" alt="Logo" class="imgLogo">
+                            <img src="IMG/Logo/Simples.webp" alt="Logo" class="imgLogo" loading='lazy'>
                             <h3 class="txtBlack txtCenter txt500" style="max-width: 400px; padding: 50px 0;">Olá,<br>
                                 Vimos que você selecionou este
                                 item para comprar pessoalmente.
@@ -82,10 +82,10 @@
                             </div>
                         </section>
                         <section id="pix">
-                            <img src="IMG/Logo/Simples.webp" alt="Logo" class="imgLogo">
+                            <img src="IMG/Logo/Simples.webp" alt="Logo" class="imgLogo" loading='lazy'>
                             <h3 class="txtBlack txtCenter txt500">Para transferir o valor<span id='spanPricePix'> de <b>0,00</b></span>, leia o QR CODE abaixo,<br>
                                 ou se desejar, utilize a chave Pix descrita.</h3>
-                            <img src="IMG/PIX.jpeg" alt="PIX" class="imgPix">
+                            <img src="IMG/PIX.jpeg" alt="PIX" class="imgPix" loading='lazy'>
                             <h2 class="txtBlack txtCenter txt600">Chave Pix: (61) 98411-1397</h2>
                             <h3 class="txtBlack txtCenter txt600" style="margin-top: -20px">C6 Bank | Amanda Jessy Dantas Martins</h3>
                             <div>
@@ -104,9 +104,9 @@
                 <section class="modal">
                     <form>
                         <section id="form" style="align-items: center; gap: 20px;">
-                            <img src="IMG/Logo/Simples.webp" alt="Logo" class="imgLogo">
-                            <img src="IMG/Vector/ty.png" alt="" id="ty">
-                            <img src="IMG/Vector/brideGroom2.png" alt="" id="brideGroom">
+                            <img src="IMG/Logo/Simples.webp" alt="Logo" class="imgLogo" loading='lazy'>
+                            <img src="IMG/Vector/ty.png" alt="" id="ty" loading='lazy'>
+                            <img src="IMG/Vector/brideGroom2.png" alt="" id="brideGroom" loading='lazy'>
                             <div>
                                 <a type="button" href="list.php" class="button btBlueSecondary txtWhite btBack">Continuar na Lista</a>
                                 <a name="btType" href="index.php" class="button btGreen txtWhite" id="btPix">Página Inicial</a>
