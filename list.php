@@ -20,7 +20,7 @@
         <section class="apresentation medium">
             <?php include('Components/header.php') ?>
             <div class="recepetion">
-                <img id="saveTheDate" src="IMG/Vector/SaveTheDate.webp" alt="" loading="lazy">
+                <img id="gifts" src="IMG/Vector/gifts.webp" alt="" loading="lazy">
             </div>
         </section>
         <main>

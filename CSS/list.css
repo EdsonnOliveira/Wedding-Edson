@@ -35,7 +35,8 @@
 .listItem > img[src='IMG/Products/lixo.webp'],
 .listItem > img[src='IMG/Products/purificadorar.webp'],
 .listItem > img[src='IMG/Products/cestorattan.webp'],
-.listItem > img[src='IMG/Products/ventilador.webp'] {
+.listItem > img[src='IMG/Products/ventilador.webp'],
+.listItem > img[src='IMG/Products/copomedidor.webp'] {
     width: 150px;
 }
 
