@@ -50,7 +50,7 @@ $('#btPix').click(() => {
     $('section#inPerson').css('display','none')
 
     $('#spanPricePix').css('display','initial')
-    $('#spanPricePix > b').html($('#valueProduct').val())
+    $('#spanPricePix > b').html('R$ '+$('#valueProduct').val())
     if ($('#idProduct').val() == 0) {
         $('#spanPricePix').css('display','none')
     }
