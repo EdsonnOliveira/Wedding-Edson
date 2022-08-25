@@ -1,3 +1,44 @@
+#pallete > img {
+    width: 400px;
+}
+
+#pallete > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#pallete > div > article {
+    min-width: 150px;
+    height: 80px;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 700px) {
+    #pallete > img {
+        width: 300px;
+    }
+
+    #pallete > div {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #pallete > div > article {
+        min-width: 0;
+        flex: 1;
+    }
+}
+
 .list {
     flex-wrap: wrap;
     flex-direction: row;

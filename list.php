@@ -24,6 +24,23 @@
             </div>
         </section>
         <main>
+            <section class='container' id='pallete'>
+                    <img src='IMG/Vector/pallete.webp' alt='pallete' loading='lazy' />
+                    <div>
+                        <article style='background: #000000'>
+                            <h1 class='txt500 txtWhite'>Preto</h1>
+                        </article>
+                        <article style='background: #6B5245'>
+                            <h1 class='txt500 txtWhite'>Marrom / Madeira</h1>
+                        </article>
+                        <article style='background: #686868'>
+                            <h1 class='txt500 txtWhite'>Cinza / Inox</h1>
+                        </article>
+                        <article style='background: #FFF; border: 1px solid var(--black);'>
+                            <h1 class='txt500 txtBlack'>Branco / Transparente</h1>
+                        </article>
+                    </div>
+            </section>
             <section class="container list">
                 <article class="listItem">
                     <img src="IMG/Products/pix.png" alt="" loading='lazy'>
