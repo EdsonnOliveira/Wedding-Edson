@@ -83,7 +83,7 @@
                         </section>
                         <section id="pix">
                             <img src="IMG/Logo/Simples.webp" alt="Logo" class="imgLogo" loading='lazy'>
-                            <h3 class="txtBlack txtCenter txt500">Para transferir o valor<span id='spanPricePix'> de <b>0,00</b></span>, leia o QR CODE abaixo,<br>
+                            <h3 class="txtBlack txtCenter txt500">Para transferir o valor<span id='spanPricePix'> de <b>R$ 0,00</b></span>, leia o QR CODE abaixo,<br>
                                 ou se desejar, utilize a chave Pix descrita.</h3>
                             <img src="IMG/PIX.jpeg" alt="PIX" class="imgPix" loading='lazy'>
                             <h2 class="txtBlack txtCenter txt600">Chave Pix: (61) 98411-1397</h2>
