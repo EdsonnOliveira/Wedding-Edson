@@ -77,24 +77,24 @@
                     <div class="boxes">
                         <div>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
+                                <img src="IMG/Persons/MariaR.webp" alt="" loading="lazy">
                                 <h1 class="txtWhite txtCenter txt500">Maria R.</h1>
                                 <h2 class="txtWhite txtCenter txt300">Avó da Noiva</h2>
                             </article>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
+                                <img src="IMG/Persons/Cledyson.webp" alt="" loading="lazy">
                                 <h1 class="txtWhite txtCenter txt500">Cledson</h1>
                                 <h2 class="txtWhite txtCenter txt300">Pastor</h2>
                             </article>
                         </div>
                         <div>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
+                                <img src="IMG/Persons/Amilson.webp" alt="" loading="lazy">
                                 <h1 class="txtWhite txtCenter txt500">Amilson</h1>
                                 <h2 class="txtWhite txtCenter txt300">Pai da Noiva</h2>
                             </article>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
+                                <img src="IMG/Persons/Eliana.webp" alt="" loading="lazy">
                                 <h1 class="txtWhite txtCenter txt500">Eliana</h1>
                                 <h2 class="txtWhite txtCenter txt300">Mãe da Noiva</h2>
                             </article>
@@ -103,24 +103,24 @@
                     <div class="boxes">
                         <div>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
+                                <img src="IMG/Persons/Gladson.webp" alt="" loading="lazy">
                                 <h1 class="txtWhite txtCenter txt500">Gladson</h1>
                                 <h2 class="txtWhite txtCenter txt300">Pastor</h2>
                             </article>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt=""loading="lazy">
+                                <img src="IMG/Persons/MariaPinheiro.webp" alt=""loading="lazy">
                                 <h1 class="txtWhite txtCenter txt500">Maria P.</h1>
                                 <h2 class="txtWhite txtCenter txt300">Avó do Noivo</h2>
                             </article>
                         </div>
                         <div>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt=""loading="lazy">
+                                <img src="IMG/Persons/Nalva.webp" alt=""loading="lazy">
                                 <h1 class="txtWhite txtCenter txt500">Edson</h1>
                                 <h2 class="txtWhite txtCenter txt300">Pai do Noivo</h2>
                             </article>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt=""loading="lazy">
+                                <img src="IMG/Persons/Nalva.webp" alt=""loading="lazy">
                                 <h1 class="txtWhite txtCenter txt500">Nalva</h1>
                                 <h2 class="txtWhite txtCenter txt300">Mãe do Noivo</h2>
                             </article>
@@ -136,67 +136,67 @@
                     <div class="boxes">
                         <div>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
+                                <img src="IMG/Persons/LeticiaRibas.webp" alt="" loading="lazy">
                                 <h1 class="txtWhite txtCenter txt500">Letícia & Ribas</h1>
                                 <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
                             </article>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
+                                <img src="IMG/Persons/CidaMagno.webp" alt="" loading="lazy">
                                 <h1 class="txtWhite txtCenter txt500">Cida & Magno</h1>
                                 <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
                             </article>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
+                                <img src="IMG/Persons/GizelleHudson.webp" alt="" loading="lazy">
                                 <h1 class="txtWhite txtCenter txt500">Gizelle & Hudson</h1>
                                 <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
                             </article>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
+                                <img src="IMG/Persons/RebecaLucas.webp" alt="" loading="lazy">
                                 <h1 class="txtWhite txtCenter txt500">Rebeca & Lucas</h1>
                                 <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
                             </article>
                         </div>
                         <div>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
-                                <h1 class="txtWhite txtCenter txt500">Letícia & Ribas</h1>
+                                <img src="IMG/Persons/KarenCoutinho.webp" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Karen & Coutinho</h1>
                                 <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
                             </article>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
-                                <h1 class="txtWhite txtCenter txt500">Cida & Magno</h1>
+                                <img src="IMG/Persons/GleyciLucas.webp" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Gleyci & Lucas</h1>
                                 <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
                             </article>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
-                                <h1 class="txtWhite txtCenter txt500">Gizelle & Hudson</h1>
+                                <img src="IMG/Persons/MariaLucas.webp" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Maria & Lucas</h1>
                                 <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
                             </article>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
-                                <h1 class="txtWhite txtCenter txt500">Rebeca & Lucas</h1>
+                                <img src="IMG/Persons/CollinsLucas.webp" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Collins & Lucas</h1>
                                 <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
                             </article>
                         </div>
                         <div>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
-                                <h1 class="txtWhite txtCenter txt500">Letícia & Ribas</h1>
+                                <img src="IMG/Persons/MaduVini.webp" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Madu & Vinícius</h1>
                                 <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
                             </article>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
-                                <h1 class="txtWhite txtCenter txt500">Cida & Magno</h1>
+                                <img src="IMG/Persons/GabiCallebe.webp" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Gabriela & Callebe</h1>
                                 <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
                             </article>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
-                                <h1 class="txtWhite txtCenter txt500">Gizelle & Hudson</h1>
+                                <img src="IMG/Persons/BrendaDaniel.webp" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Brenda & Daniel</h1>
                                 <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
                             </article>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
-                                <h1 class="txtWhite txtCenter txt500">Rebeca & Lucas</h1>
+                                <img src="IMG/Persons/ThaisEduardo.webp" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Thais & Eduardo</h1>
                                 <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
                             </article>
                         </div>
@@ -210,40 +210,35 @@
                     <div class="boxes">
                         <div>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
+                                <img src="IMG/Persons/Jonathan.webp" alt="" loading="lazy">
                                 <h1 class="txtWhite txtCenter txt500">Jonathan</h1>
                                 <h2 class="txtWhite txtCenter txt300">Pajem</h2>
                             </article>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
-                                <h1 class="txtWhite txtCenter txt500">Yasmin</h1>
-                                <h2 class="txtWhite txtCenter txt300">Daminha</h2>
-                            </article>
-                            <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
+                                <img src="IMG/Persons/Isabelly.webp" alt="" loading="lazy">
                                 <h1 class="txtWhite txtCenter txt500">Isabelly</h1>
                                 <h2 class="txtWhite txtCenter txt300">Daminha</h2>
                             </article>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
+                                <img src="IMG/Persons/MariaEduarda.webp" alt="" loading="lazy">
                                 <h1 class="txtWhite txtCenter txt500">Maria Eduarda</h1>
                                 <h2 class="txtWhite txtCenter txt300">Daminha</h2>
                             </article>
                         </div>
                         <div>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
+                                <img src="IMG/Persons/JoaoPedro.webp" alt="" loading="lazy">
                                 <h1 class="txtWhite txtCenter txt500">João Pedro</h1>
                                 <h2 class="txtWhite txtCenter txt300">Pajem</h2>
                             </article>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
+                                <img src="IMG/Persons/Vallentina.webp" alt="" loading="lazy">
                                 <h1 class="txtWhite txtCenter txt500">Vallentina</h1>
                                 <h2 class="txtWhite txtCenter txt300">Daminha</h2>
                             </article>
                             <article class="person">
-                                <img src="IMG/Photos/godfather.webp" alt="" loading="lazy">
-                                <h1 class="txtWhite txtCenter txt500">Isabella</h1>
+                                <img src="IMG/Persons/Isabela.webp" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Isabela</h1>
                                 <h2 class="txtWhite txtCenter txt300">Daminha</h2>
                             </article>
                         </div>
