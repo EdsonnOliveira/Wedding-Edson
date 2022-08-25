@@ -29,6 +29,16 @@
     max-width: 250px;
 }
 
+.listItem > img[src='IMG/Products/kitvaso.webp'],
+.listItem > img[src='IMG/Products/adega.webp'],
+.listItem > img[src='IMG/Products/garrafa.webp'],
+.listItem > img[src='IMG/Products/lixo.webp'],
+.listItem > img[src='IMG/Products/purificadorar.webp'],
+.listItem > img[src='IMG/Products/cestorattan.webp'],
+.listItem > img[src='IMG/Products/ventilador.webp'] {
+    width: 150px;
+}
+
 .listItem:hover {
     box-shadow: 1px 2px 15px 5px rgba(0,0,0,0.12)
 }
