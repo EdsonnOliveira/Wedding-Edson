@@ -115,7 +115,7 @@
                         </div>
                         <div>
                             <article class="person">
-                                <img src="IMG/Persons/Nalva.webp" alt=""loading="lazy">
+                                <img src="IMG/Persons/Edson.webp" alt=""loading="lazy">
                                 <h1 class="txtWhite txtCenter txt500">Edson</h1>
                                 <h2 class="txtWhite txtCenter txt300">Pai do Noivo</h2>
                             </article>
