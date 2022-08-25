@@ -20,6 +20,11 @@
     align-items: center;
 }
 
+.listItem.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
 .listItem > img {
     max-width: 250px;
 }

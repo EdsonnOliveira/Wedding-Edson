@@ -26,12 +26,13 @@
         <main>
             <section class="container list">
                 <article class="listItem">
-                    <img src="IMG/Products/cafeteira.png" alt="">
+                    <img src="IMG/Products/pix.png" alt="">
                     <h1 class="txtBlack txt800 txtCenter">Preferência<br>dos Noivos</h1>
                     <h2 class="txtBlack txt600 txtCenter">PIX de qualquer valor</h2>
+                    <a class="button btPix txtWhite txt500" onclick="showModal(0, 'Qualquer valor no PIX', '0')">Presentear</a>
                 </article>
                 <?php
-                    $SQL = $conn->prepare('SELECT * FROM list WHERE GiverType=0');
+                    $SQL = $conn->prepare('SELECT * FROM list');
                     $SQL->execute();
                 
                     $SQList = $SQL->fetchAll();
@@ -42,11 +43,15 @@
                         $price = $value['Price'];
                         $showModal = "showModal($id, '$name', '$price')";
                         
-                        echo "<article class='listItem'>";
+                        $type = $value['GiverType'] == 0 ? '' : 'disabled';
+                        $text = $value['GiverType'] == 0 ? 'Presentear' : 'Presenteado!';
+                        $color = $value['GiverType'] == 0 ? 'btBlue' : 'btGreen';
+                        
+                        echo "<article class='listItem $type'>";
                             echo "<img src='IMG/Products/$image.webp' alt='$name'>";
                             echo "<h2 class='txtBlack txt600 txtCenter'>$name</h2>";
                             echo "<h1 class='txtBlack txt800 txtCenter'>R$ $price</h1>";
-                            echo '<a class="button btBlue txtWhite txt500" onclick="' . $showModal . '">Presentear</a>';
+                            echo '<a class="button ' . $color . ' txtWhite txt500" onclick="' . $showModal . '">' . $text . '</a>';
                         echo "</article>";
                     }
                 ?>
@@ -59,8 +64,8 @@
                             <h1 class="txtBlack txtCenter txt500" id="nameProduct">Cafeteira Philco </h1>
                             <input type="hidden" name="idProduct" value="" id="idProduct">
                             <input type="hidden" name="valueProduct" value="" id="valueProduct">
-                            <input type="text" name="name" placeholder="Nome Completo" class="txt400" required>
-                            <textarea name="message" placeholder="Mensagem" rows="5" required></textarea>
+                            <input type="text" name="name" id='name' placeholder="Nome Completo" class="txt400" required>
+                            <textarea name="message" id='message' placeholder="Mensagem" rows="5" required></textarea>
                             <button type="button" name="btType" value="1" class="button btBlueSecondary txtWhite" id="btInPerson">Comprar Pessoalmente</button>
                             <button type="button" name="btType" value="2" class="button btGreen txtWhite" id="btPix">Valor no Pix</button>
                         </section>
@@ -78,7 +83,7 @@
                         </section>
                         <section id="pix">
                             <img src="IMG/Logo/Simples.webp" alt="Logo" class="imgLogo">
-                            <h3 class="txtBlack txtCenter txt500">Para transferir o valor, leia o QR CODE abaixo,<br>
+                            <h3 class="txtBlack txtCenter txt500">Para transferir o valor<span id='spanPricePix'> de <b>0,00</b></span>, leia o QR CODE abaixo,<br>
                                 ou se desejar, utilize a chave Pix descrita.</h3>
                             <img src="IMG/PIX.jpeg" alt="PIX" class="imgPix">
                             <h2 class="txtBlack txtCenter txt600">Chave Pix: (61) 98411-1397</h2>

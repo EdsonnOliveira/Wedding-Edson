@@ -58,3 +58,8 @@ input, textarea {
 .button.button.btGreen:hover {
     background-color: var(--greenSecondary);
 }
+
+.button.btPix {
+    background-color: #2FAD9F;
+    transition: 0.2s ease-in-out;
+}
