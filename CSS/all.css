@@ -106,7 +106,7 @@ main.fullWidth {
 }
 
 .container.background {
-    height: 100vh;
+    min-height: 100vh;
     padding: 100px 0;
     justify-content: center;
 }
