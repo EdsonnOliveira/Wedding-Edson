@@ -12,8 +12,9 @@
 }
 
 #containerBrideGroom > article > img:first-child {
-    width: 100%;
+    width: 60%;
     object-fit: contain;
+    border-radius: 10px;
 }
 
 #containerBrideGroom > article > img:nth-child(2) {
