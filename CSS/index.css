@@ -37,6 +37,10 @@
         flex-direction: column;
     }
 
+    #containerBrideGroom > article {
+        width: 100%;
+    }
+
     #containerBrideGroom > img {
         width: 70px;
         margin: 40px 0;

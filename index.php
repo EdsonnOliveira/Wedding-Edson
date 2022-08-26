@@ -25,7 +25,7 @@
                         <img src="IMG/Photos/bride.webp" alt="Noiva" loading="lazy">
                         <img src="IMG/Vector/Amanda.webp" alt="Amanda" loading="lazy">
                         <h3 class="txtBlack txt500 txtCenter">Tudo de bom numa só mulher: linda, retardada, inteligente e em breve a carne da minha carne.</h3>
-                        <a href="">
+                        <a href="https://www.instagram.com/amnds_jessy/" target='_blank'>
                             <img src="IMG/Vector/instagram.webp" alt="" loading="lazy">
                         </a>
                     </article>
@@ -34,7 +34,7 @@
                         <img src="IMG/Photos/groom.webp" alt="Noivo" loading="lazy">
                         <img src="IMG/Vector/Edson.webp" alt="Edson" loading="lazy">
                         <h3 class="txtBlack txt500 txtCenter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel quam elit.</h3>
-                        <a href="">
+                        <a href="https://www.instagram.com/edsonoliveirap2/" target='_blank'>
                             <img src="IMG/Vector/instagram.webp" alt="" loading="lazy">
                         </a>
                     </article>
