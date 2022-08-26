@@ -45,24 +45,9 @@
             <section class="container background" id="history">
                 <img src="IMG/Vector/history.webp" alt="" loading="lazy">
                 <h1 class='txtTitle txtWhite txt300'>O que nos fez chegar<br>até aqui?</h1>
-                <h4 class="txtWhite txtCenter txt300">Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit. Sed vitae convallis augue. Proin 
-                    nec sem in velit scelerisque accumsan eu sit amet 
-                    sapien. Nam sollicitudin, quam et ullamcorper 
-                    aliquam, est lacus interdum nibh, ut tincidunt orci 
-                    quam sollicitudin ex. Curabitur cursus fringilla 
-                    feugiat. Curabitur et maximus dui, eu viverra 
-                    dolor. Vivamus non eros erat. Pellentesque 
-                    habitant morbi tristique senectus et netus et 
-                    malesuada fames ac turpis egestas. Donec blandit 
-                    luctus arcu eget interdum. Nullam arcu eros, 
-                    dignissim id nulla eu, convallis laoreet augue. 
-                    Phasellus tortor mauris, mollis faucibus ultrices 
-                    tempor, aliquet ac massa. Morbi nisi tortor, 
-                    pulvinar ut consequat vel, pretium ac augue. 
-                    Aliquam vel turpis quis elit feugiat vulputate et 
-                    non nulla. Sed et dapibus dui. Fusce 
-                    condimentum euismod luctus.</h4>
+                <h4 class="txtWhite txtCenter txt300">Podemos dizer que essa história não teve lá um começo romântico igual aos filmes e contos de fadas. No começo de 2018, no aniversário de 17 anos de Amanda, através de amigos incomuns, Amanda e Edson se conheceram. Trocaram poucas palavras e por ironia, não sentiram nenhum tipo de interesse um pelo outro. Porém, não contavam que em pouco tempo seriam grandes amigos e acompanhariam toda a vida um do outro. O tempo passou, mas ainda assim, não havia interesse de nenhuma das partes... Até que surgiu uma oportunidade de trabalharem juntos, onde Edson foi aprovado na empresa onde Amanda trabalhava. A partir daí o convívio deles era diário. Edson como um bom cavalheiro, sempre levava e esperava a Amanda na parada de ônibus ao fim do expediente. A intimidade e amizade se fortaleceu e o interesse de ambos foi nascendo e regado como uma possível possibilidade.<br><br>
+                    Cercados de receios, tentaram fugir do que estavam sentindo, mas Edson como um visionário e homem de fé, não desistiu de sua amada. Deixava chocolates em sua mesa de trabalho e mostrava sinais do quanto poderiam dar certo juntos. Amanda, ainda cheia de medos de perder seu melhor amigo, foi cedendo aos seus sentimentos que apontavam para um futuro com o Edson.<br><br>
+                    Foram meses enrolando até que enfim, decidiram que fariam dar certo, entenderam que não existia a pessoa certa, mas tiveram o entendimento que com o direcionamento de Deus e disposição de ambos, não tinha como dar errado. Meses depois aqui de encontram, numa decisão extremamente importante e guiada debaixo dos propósitos de Deus.</h4>
             </section>
         </main>
         <main class="fullWidth">
@@ -174,7 +159,7 @@
                             </article>
                             <article class="person">
                                 <img src="IMG/Persons/CollinsLucas.webp" alt="" loading="lazy">
-                                <h1 class="txtWhite txtCenter txt500">Collins & Lucas</h1>
+                                <h1 class="txtWhite txtCenter txt500">Colins & Lucas</h1>
                                 <h2 class="txtWhite txtCenter txt300">Padrinhos</h2>
                             </article>
                         </div>
