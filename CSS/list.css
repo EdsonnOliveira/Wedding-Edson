@@ -53,7 +53,6 @@
     padding: 10px;
     background-color: #FFF;
     border-radius: 10px;
-    box-shadow: 1px 2px 15px 5px rgba(0,0,0,0.05);
     transition: 0.2s ease-in-out;
     display: flex;
     flex-direction: column;
@@ -79,10 +78,6 @@
 .listItem > img[src='IMG/Products/ventilador.webp'],
 .listItem > img[src='IMG/Products/copomedidor.webp'] {
     width: 150px;
-}
-
-.listItem:hover {
-    box-shadow: 1px 2px 15px 5px rgba(0,0,0,0.12)
 }
 
 .listItem > h2 {

@@ -10,5 +10,6 @@
 <link rel="stylesheet" href="CSS/text.css">
 <link rel="stylesheet" href="CSS/img.css">
 <link rel="stylesheet" href="CSS/modal.css">
+<link rel="stylesheet" href="CSS/box.css">
 <link rel="stylesheet" href="CSS/footer.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

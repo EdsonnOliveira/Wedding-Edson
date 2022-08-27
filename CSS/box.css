@@ -1,0 +1,7 @@
+.boxShadow {
+    box-shadow: 1px 2px 15px 5px rgba(0,0,0,0.05);
+}
+
+.boxShadow:hover {
+    box-shadow: 1px 2px 15px 5px rgba(0,0,0,0.12)
+}

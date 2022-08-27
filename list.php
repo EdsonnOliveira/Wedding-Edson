@@ -42,7 +42,7 @@
                     </div>
             </section>
             <section class="container list">
-                <article class="listItem">
+                <article class="listItem boxShadow">
                     <img src="IMG/Products/pix.png" alt="" loading='lazy'>
                     <h1 class="txtBlack txt800 txtCenter">Preferência<br>dos Noivos</h1>
                     <h2 class="txtBlack txt600 txtCenter">PIX de qualquer valor</h2>
@@ -64,7 +64,7 @@
                         $text = $value['GiverType'] == 0 ? 'Presentear' : 'Presenteado!';
                         $color = $value['GiverType'] == 0 ? 'btBlue' : 'btGreen';
                         
-                        echo "<article class='listItem $type'>";
+                        echo "<article class='listItem $type boxShadow'>";
                             echo "<img src='IMG/Products/$image.webp' alt='$name' loading='lazy'>";
                             echo "<h2 class='txtBlack txt600 txtCenter'>$name</h2>";
                             echo "<h1 class='txtBlack txt800 txtCenter'>R$ $price</h1>";

@@ -155,6 +155,8 @@ main.fullWidth {
 :root {
     --bluePrimary: #A3C5DF;
     --blueSecondary: #4B7BA8;
+    --blueThird: #051729;
+    --blueFourth: #C1D2EC;
     --greenPrimary: #3D4C40;
     --greenSecondary: #859176;
     --pink: #F4AD95;
