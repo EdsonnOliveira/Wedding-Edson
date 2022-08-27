@@ -148,6 +148,10 @@
     }
 }
 
+#message {
+    display: none;
+}
+
 #message > img:first-child {
     width: 40px;
 }

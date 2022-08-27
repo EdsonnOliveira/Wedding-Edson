@@ -82,13 +82,63 @@
                 <img src="IMG/Vector/messageText.webp" alt="Menasgem" loading="lazy">
                 <section>
                     <article class="person">
-                        <img src="IMG/Persons/LeticiaRibas.webp" alt="Leticia & Ribas">
+                        <img src="IMG/Persons/LeticiaRibas.webp" loading="lazy">
                         <h1 class="txtBlack txt600 txtCenter">Letícia & Ribas</h1>
                         <h3 class="txtBlack txt500 txtCenter">Como Padrinho/ Madrinha você terá a missão de orar por nós, nos acalmar, cuidar, nos alegrar, nos acompanhar e estar ao nosso lado em todos os momentos, sejam eles bons ou ruins, pois gostaríamos de partilhar cada momento de conquista com pessoas especiais como você. Também terá que nos aconselhar, ouvir e puxar nossas orelhas quando necessário. E não vale se afastar de nossas vidas, hein?</h3>
                     </article>
                     <article class="person">
-                        <img src="IMG/Persons/LeticiaRibas.webp" alt="Leticia & Ribas">
-                        <h1 class="txtBlack txt600 txtCenter">Letícia & Ribas</h1>
+                        <img src="IMG/Persons/CidaMagno.webp" loading="lazy">
+                        <h1 class="txtBlack txt600 txtCenter">Cida & Magno</h1>
+                        <h3 class="txtBlack txt500 txtCenter">Como Padrinho/ Madrinha você terá a missão de orar por nós, nos acalmar, cuidar, nos alegrar, nos acompanhar e estar ao nosso lado em todos os momentos, sejam eles bons ou ruins, pois gostaríamos de partilhar cada momento de conquista com pessoas especiais como você. Também terá que nos aconselhar, ouvir e puxar nossas orelhas quando necessário. E não vale se afastar de nossas vidas, hein?</h3>
+                    </article>
+                    <article class="person">
+                        <img src="IMG/Persons/GizelleHudson.webp" loading="lazy">
+                        <h1 class="txtBlack txt600 txtCenter">Gizelle & Hudson</h1>
+                        <h3 class="txtBlack txt500 txtCenter">Como Padrinho/ Madrinha você terá a missão de orar por nós, nos acalmar, cuidar, nos alegrar, nos acompanhar e estar ao nosso lado em todos os momentos, sejam eles bons ou ruins, pois gostaríamos de partilhar cada momento de conquista com pessoas especiais como você. Também terá que nos aconselhar, ouvir e puxar nossas orelhas quando necessário. E não vale se afastar de nossas vidas, hein?</h3>
+                    </article>
+                    <article class="person">
+                        <img src="IMG/Persons/RebecaLucas.webp" loading="lazy">
+                        <h1 class="txtBlack txt600 txtCenter">Rebeca & Lucas</h1>
+                        <h3 class="txtBlack txt500 txtCenter">Como Padrinho/ Madrinha você terá a missão de orar por nós, nos acalmar, cuidar, nos alegrar, nos acompanhar e estar ao nosso lado em todos os momentos, sejam eles bons ou ruins, pois gostaríamos de partilhar cada momento de conquista com pessoas especiais como você. Também terá que nos aconselhar, ouvir e puxar nossas orelhas quando necessário. E não vale se afastar de nossas vidas, hein?</h3>
+                    </article>
+                    <article class="person">
+                        <img src="IMG/Persons/KarenCoutinho.webp" loading="lazy">
+                        <h1 class="txtBlack txt600 txtCenter">Karen & Coutinho</h1>
+                        <h3 class="txtBlack txt500 txtCenter">Como Padrinho/ Madrinha você terá a missão de orar por nós, nos acalmar, cuidar, nos alegrar, nos acompanhar e estar ao nosso lado em todos os momentos, sejam eles bons ou ruins, pois gostaríamos de partilhar cada momento de conquista com pessoas especiais como você. Também terá que nos aconselhar, ouvir e puxar nossas orelhas quando necessário. E não vale se afastar de nossas vidas, hein?</h3>
+                    </article>
+                    <article class="person">
+                        <img src="IMG/Persons/GleyciLucas.webp" loading="lazy">
+                        <h1 class="txtBlack txt600 txtCenter">Gleyci & Lucas</h1>
+                        <h3 class="txtBlack txt500 txtCenter">Como Padrinho/ Madrinha você terá a missão de orar por nós, nos acalmar, cuidar, nos alegrar, nos acompanhar e estar ao nosso lado em todos os momentos, sejam eles bons ou ruins, pois gostaríamos de partilhar cada momento de conquista com pessoas especiais como você. Também terá que nos aconselhar, ouvir e puxar nossas orelhas quando necessário. E não vale se afastar de nossas vidas, hein?</h3>
+                    </article>
+                    <article class="person">
+                        <img src="IMG/Persons/MariaLucas.webp" loading="lazy">
+                        <h1 class="txtBlack txt600 txtCenter">Maria & Lucas</h1>
+                        <h3 class="txtBlack txt500 txtCenter">Como Padrinho/ Madrinha você terá a missão de orar por nós, nos acalmar, cuidar, nos alegrar, nos acompanhar e estar ao nosso lado em todos os momentos, sejam eles bons ou ruins, pois gostaríamos de partilhar cada momento de conquista com pessoas especiais como você. Também terá que nos aconselhar, ouvir e puxar nossas orelhas quando necessário. E não vale se afastar de nossas vidas, hein?</h3>
+                    </article>
+                    <article class="person">
+                        <img src="IMG/Persons/ColinsLucas.webp" loading="lazy">
+                        <h1 class="txtBlack txt600 txtCenter">Colins & Lucas</h1>
+                        <h3 class="txtBlack txt500 txtCenter">Como Padrinho/ Madrinha você terá a missão de orar por nós, nos acalmar, cuidar, nos alegrar, nos acompanhar e estar ao nosso lado em todos os momentos, sejam eles bons ou ruins, pois gostaríamos de partilhar cada momento de conquista com pessoas especiais como você. Também terá que nos aconselhar, ouvir e puxar nossas orelhas quando necessário. E não vale se afastar de nossas vidas, hein?</h3>
+                    </article>
+                    <article class="person">
+                        <img src="IMG/Persons/MaduVini.webp" loading="lazy">
+                        <h1 class="txtBlack txt600 txtCenter">Madu & Vinícius</h1>
+                        <h3 class="txtBlack txt500 txtCenter">Como Padrinho/ Madrinha você terá a missão de orar por nós, nos acalmar, cuidar, nos alegrar, nos acompanhar e estar ao nosso lado em todos os momentos, sejam eles bons ou ruins, pois gostaríamos de partilhar cada momento de conquista com pessoas especiais como você. Também terá que nos aconselhar, ouvir e puxar nossas orelhas quando necessário. E não vale se afastar de nossas vidas, hein?</h3>
+                    </article>
+                    <article class="person">
+                        <img src="IMG/Persons/GabiCallebe.webp" loading="lazy">
+                        <h1 class="txtBlack txt600 txtCenter">Gabriela & Callebe</h1>
+                        <h3 class="txtBlack txt500 txtCenter">Como Padrinho/ Madrinha você terá a missão de orar por nós, nos acalmar, cuidar, nos alegrar, nos acompanhar e estar ao nosso lado em todos os momentos, sejam eles bons ou ruins, pois gostaríamos de partilhar cada momento de conquista com pessoas especiais como você. Também terá que nos aconselhar, ouvir e puxar nossas orelhas quando necessário. E não vale se afastar de nossas vidas, hein?</h3>
+                    </article>
+                    <article class="person">
+                        <img src="IMG/Persons/BrendaDaniel.webp" loading="lazy">
+                        <h1 class="txtBlack txt600 txtCenter">Brenda & Daniel</h1>
+                        <h3 class="txtBlack txt500 txtCenter">Como Padrinho/ Madrinha você terá a missão de orar por nós, nos acalmar, cuidar, nos alegrar, nos acompanhar e estar ao nosso lado em todos os momentos, sejam eles bons ou ruins, pois gostaríamos de partilhar cada momento de conquista com pessoas especiais como você. Também terá que nos aconselhar, ouvir e puxar nossas orelhas quando necessário. E não vale se afastar de nossas vidas, hein?</h3>
+                    </article>
+                    <article class="person">
+                        <img src="IMG/Persons/ThaisEduardo.webp" loading="lazy">
+                        <h1 class="txtBlack txt600 txtCenter">Thaís & Eduardo</h1>
                         <h3 class="txtBlack txt500 txtCenter">Como Padrinho/ Madrinha você terá a missão de orar por nós, nos acalmar, cuidar, nos alegrar, nos acompanhar e estar ao nosso lado em todos os momentos, sejam eles bons ou ruins, pois gostaríamos de partilhar cada momento de conquista com pessoas especiais como você. Também terá que nos aconselhar, ouvir e puxar nossas orelhas quando necessário. E não vale se afastar de nossas vidas, hein?</h3>
                     </article>
                 </section>
