@@ -7,8 +7,43 @@
     </head>
     <body>
         <section class="apresentation">
-            <?php include('Components/header.php') ?>
-            <div class="recepetion">
+            <header>
+                <nav id="navDesktop">
+                    <a href="index.php">
+                        <img src="IMG/Logo/Simples-2.webp" alt="" loading="lazy">
+                    </a>
+                    <ul>
+                        <li><a href="index.php">Início</a></li>
+                        <li><a onclick="scrollToElement('#they')">Noivos</a></li>
+                        <li><a onclick="scrollToElement('#history')">História</a></li>
+                        <li><a onclick="scrollToElement('#honor')">Pessoas</a></li>
+                        <li><a href="list.php">Presentes</a></li>
+                    </ul>
+                </nav>
+                <nav id="navMobile">
+                    <a href="index.php">
+                        <img src="IMG/Logo/Simples-2.webp" alt="" loading="lazy">
+                    </a>
+                    <figure>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </figure>
+                    <ul>
+                        <div>
+                            <img src="IMG/Logo/Completa.webp" alt="" loading="lazy">
+                        </div>
+                        <li><a href="index.php">Início</a></li>
+                        <li><a href="index.php#they">Noivos</a></li>
+                        <li><a href="index.php#history">História</a></li>
+                        <li><a href="index.php#honor">Pessoas</a></li>
+                        <li><a href="list.php">Presentes</a></li>
+                        <a id="closeMenu" class="button txtBluePrimary txt600">Fechar Menu</a>
+                    </ul>
+                </nav>
+                <a class="button txtWhite" id="btnConfirm">Confirmar Presença</a>
+            </header>
+            <div class="reception">
                 <img id="saveTheDate" src="IMG/Vector/SaveTheDate.webp" alt="" loading="lazy">
                 <img id="brideGroom" src="IMG/Vector/brideGroom.webp" alt="" loading="lazy">
                 <h1 class="txtWhite">12 de Novembro de 2022</h1>
@@ -16,6 +51,26 @@
             </div>
         </section>
         <main>
+            <section class="container" id="count">
+                <div id="boxCount">
+                    <span>
+                        <h1 class='txtBluePrimary txtItalic txt600' id='days'>0</h1>
+                        <h3 class='txtBlack txtUpper txt500'>Dias</h3>
+                    </span>
+                    <span>
+                        <h1 class='txtBluePrimary txtItalic txt600' id='hours'>0</h1>
+                        <h3 class='txtBlack txtUpper txt500'>Horas</h3>
+                    </span>
+                    <span>
+                        <h1 class='txtBluePrimary txtItalic txt600' id='minutes'>0</h1>
+                        <h3 class='txtBlack txtUpper txt500'>Minutos</h3>
+                    </span>
+                    <span>
+                        <h1 class='txtBluePrimary txtItalic txt600' id='seconds'>0</h1>
+                        <h3 class='txtBlack txtUpper txt500'>Segundos</h3>
+                    </span>
+                </div>
+            </section>
             <section class="container" id="they">
                 <img src="IMG/Vector/alliances.webp" alt="Aliancas" class="icon medium" loading="lazy">
                 <img src="IMG/Vector/brideGroomText.webp" alt="Noivos" loading="lazy">
@@ -24,7 +79,7 @@
                     <article>
                         <img src="IMG/Photos/bride.webp" alt="Noiva" loading="lazy">
                         <img src="IMG/Vector/Amanda.webp" alt="Amanda" loading="lazy">
-                        <h3 class="txtBlack txt500 txtCenter">Tudo de bom numa só mulher: linda, retardada, inteligente e em breve a carne da minha carne.</h3>
+                        <h3 class="txtBlack txt500 txtCenter">Nossa noivinha Amanda tem 21 aninhos, está se formando em psicologia e atua como tech recruiter. Amanda sempre foi aquela menina sonhadora, encantada com clichês românticos, sonhava um dia viver o seu "felizes para sempre". Com doçura conquistava a pessoas ao seu redor. Apaixonada por servir e ajudar as pessoas, Amanda é o tipo de menina mulher que mesmo perdida entre decisões, se encontrou nos caminhos de Jesus. Amanda percebeu que tudo aprontava para Cristo, entendeu que ao se virar para Ele, as incertezas começariam a fazer sentido, e os sentidos vem se encontrando e encaixando através da luz que iluminava o seu caminho, e o caminho se chama Jesus Cristo!</h3>
                         <a href="https://www.instagram.com/amnds_jessy/" target='_blank'>
                             <img src="IMG/Vector/instagram.webp" alt="" loading="lazy">
                         </a>
@@ -33,7 +88,7 @@
                     <article>
                         <img src="IMG/Photos/groom.webp" alt="Noivo" loading="lazy">
                         <img src="IMG/Vector/Edson.webp" alt="Edson" loading="lazy">
-                        <h3 class="txtBlack txt500 txtCenter">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vel quam elit.</h3>
+                        <h3 class="txtBlack txt500 txtCenter">Nosso noivo Edson tem 22 anos, desde cedo notou seu talento com lógica ligada a tecnologia, extremamente esforçado e inteligente, alcançou senioridade mesmo sendo jovem. Edson sempre foi um rapaz racional, questionador e direto. Sempre foi um rapaz preocupado e protetor com sua família e amigos. Edson tentou fugir da verdade que o esperava e transformaria todo o seu ser. Não demorou muito para que seu encontro genuíno com Cristo acontecesse, ainda muito questionador, foi cedendo ao amor que Jesus o oferecia a todo instante, e através dele toda a sua família foi alcançada. Ele entendeu que a principal fonte entre a razão, ciência e o amor era Cristo, e é só disso que ele precisava.</h3>
                         <a href="https://www.instagram.com/edsonoliveirap2/" target='_blank'>
                             <img src="IMG/Vector/instagram.webp" alt="" loading="lazy">
                         </a>

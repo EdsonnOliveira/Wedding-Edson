@@ -5,3 +5,4 @@
 <script src='JS/anchor.js'></script>
 <script src='JS/modal.js'></script>
 <script src="JS/menu.js"></script>
+<script src="JS/countDays.js"></script>

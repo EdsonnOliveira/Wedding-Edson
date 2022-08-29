@@ -21,7 +21,7 @@
     height: 50vh;
 }
 
-.recepetion {
+.reception {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,56 +29,56 @@
     gap: 20px;
 }
 
-.recepetion > #saveTheDate {
+.reception > #saveTheDate {
     width: 250px;
 }
 
-.recepetion > #gifts {
+.reception > #gifts {
     width: 450px;
     margin-top: 65px;
 }
 
-.recepetion > #brideGroom {
+.reception > #brideGroom {
     width: 600px;
 }
 
-.recepetion > h1 {
-    font-weight: 400;
+.reception > h1 {
+    font-weight: 500;
     font-size: 22px;
 }
 
-.recepetion > a {
+.reception > a {
     display: none;
 }
 
 @media only screen and (max-width: 1200px) {
-    .recepetion > #saveTheDate {
+    .reception > #saveTheDate {
         width: 200px;
     }
 
-    .recepetion > #gifts {
+    .reception > #gifts {
         width: 300px;
     }
 
-    .recepetion > #brideGroom {
+    .reception > #brideGroom {
         width: 500px;
     }
 }
 
 @media only screen and (max-width: 700px) {
-    .recepetion > #gifts {
+    .reception > #gifts {
         width: 250px;
     }
 
-    .recepetion > #brideGroom {
+    .reception > #brideGroom {
         width: 370px;
     }
 
-    .recepetion > h1 {
+    .reception > h1 {
         font-size: 18px;
     }
 
-    .recepetion > a {
+    .reception > a {
         display: flex;
     }
 }

@@ -19,7 +19,7 @@
     <body>
         <section class="apresentation medium">
             <?php include('Components/header.php') ?>
-            <div class="recepetion">
+            <div class="reception">
                 <img id="gifts" src="IMG/Vector/gifts.webp" alt="" loading="lazy">
             </div>
         </section>

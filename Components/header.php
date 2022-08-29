@@ -5,9 +5,9 @@
         </a>
         <ul>
             <li><a href="index.php">Início</a></li>
-            <li><a onclick="scrollToElement('#they')">Noivos</a></li>
-            <li><a onclick="scrollToElement('#history')">História</a></li>
-            <li><a onclick="scrollToElement('#honor')">Pessoas</a></li>
+            <li><a href="index.php#they">Noivos</a></li>
+            <li><a href="index.php#history">História</a></li>
+            <li><a href="index.php#history">Pessoas</a></li>
             <li><a href="list.php">Presentes</a></li>
         </ul>
     </nav>
@@ -25,9 +25,9 @@
                 <img src="IMG/Logo/Completa.webp" alt="" loading="lazy">
             </div>
             <li><a href="index.php">Início</a></li>
-            <li><a href="">Noivos</a></li>
-            <li><a href="">História</a></li>
-            <li><a href="">Pessoas</a></li>
+            <li><a href="index.php#they">Noivos</a></li>
+            <li><a href="index.php#history">História</a></li>
+            <li><a href="index.php#honor">Pessoas</a></li>
             <li><a href="list.php">Presentes</a></li>
             <a id="closeMenu" class="button txtBluePrimary txt600">Fechar Menu</a>
         </ul>

@@ -1,3 +1,65 @@
+.reception {
+    margin-top: 50px;
+}
+
+#count {
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#boxCount {
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#boxCount > span {
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 40px;
+}
+
+#boxCount > span > h1 {
+    font-size: 56px;
+}
+
+@media only screen and (max-width: 900px) {
+    #boxCount > span > h1 {
+        font-size: 56px;
+    }
+
+    #boxCount > span > h3 {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    #boxCount {
+        flex-wrap: wrap;
+    }
+
+    #boxCount > span {
+        margin: 0 20px;
+        margin-bottom: 20px;
+    }
+
+    #boxCount > span:last-child {
+        margin: 0;
+    }
+
+    #boxCount > span > h1 {
+        font-size: 46px;
+    }
+
+    #boxCount > span > h3 {
+        font-size: 13px;
+    }
+}
+
 #containerBrideGroom {
     flex-direction: row;
     justify-content: space-around;
