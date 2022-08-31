@@ -12,7 +12,7 @@
 <html>
     <head>
         <title>Lista de Presentes | Amanda & Edson</title>
-        <meta http-equiv="refresh" content="120">
+        <meta http-equiv="refresh" content="200">
         <?php include('Components/meta.php') ?>
         <link rel="stylesheet" href="CSS/list.css">
     </head>
@@ -82,7 +82,7 @@
                             <input type="hidden" name="idProduct" value="" id="idProduct">
                             <input type="hidden" name="valueProduct" value="" id="valueProduct">
                             <input type="text" name="name" id='name' placeholder="Nome Completo" class="txt400" required>
-                            <textarea name="message" id='message' placeholder="Mensagem" rows="5" required></textarea>
+                            <textarea name="message" id='message' placeholder="Mensagem para os noivos" rows="5" required></textarea>
                             <button type="button" name="btType" value="1" class="button btBlueSecondary txtWhite" id="btInPerson">Comprar Pessoalmente</button>
                             <button type="button" name="btType" value="2" class="button btGreen txtWhite" id="btPix">Valor no Pix</button>
                         </section>
