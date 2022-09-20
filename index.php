@@ -41,7 +41,7 @@
                         <a id="closeMenu" class="button txtBluePrimary txt600">Fechar Menu</a>
                     </ul>
                 </nav>
-                <a class="button txtWhite" id="btnConfirm">Confirmar Presença</a>
+                <a href="presence.php" class="button txtWhite" id="btnConfirm">Confirmar Presença</a>
             </header>
             <div class="reception">
                 <img id="saveTheDate" src="IMG/Vector/SaveTheDate.webp" alt="" loading="lazy">
@@ -75,9 +75,9 @@
                 <img src="IMG/Vector/alliances.webp" alt="Aliancas" class="icon medium" loading="lazy">
                 <img src="IMG/Vector/brideGroomText.webp" alt="Noivos" loading="lazy">
                 <h1 class="txtTitle txtBlack">Conheça mais um pouco<br>desse casal</h1>
+                <img src="IMG/Persons/AmandaEdson.webp" alt="Noivos" loading="lazy" id="brideGroom">
                 <section class="container noPadding" id="containerBrideGroom">
                     <article>
-                        <img src="IMG/Photos/bride.webp" alt="Noiva" loading="lazy">
                         <img src="IMG/Vector/Amanda.webp" alt="Amanda" loading="lazy">
                         <h3 class="txtBlack txt500 txtCenter">Nossa noivinha Amanda tem 21 aninhos, está se formando em psicologia e atua como tech recruiter. Amanda sempre foi aquela menina sonhadora, encantada com clichês românticos, sonhava um dia viver o seu "felizes para sempre". Com doçura conquistava a pessoas ao seu redor. Apaixonada por servir e ajudar as pessoas, Amanda é o tipo de menina mulher que mesmo perdida entre decisões, se encontrou nos caminhos de Jesus. Amanda percebeu que tudo aprontava para Cristo, entendeu que ao se virar para Ele, as incertezas começariam a fazer sentido, e os sentidos vem se encontrando e encaixando através da luz que iluminava o seu caminho, e o caminho se chama Jesus Cristo!</h3>
                         <a href="https://www.instagram.com/amnds_jessy/" target='_blank'>
@@ -86,7 +86,6 @@
                     </article>
                     <img src="IMG/Vector/hearth.webp" alt="" loading="lazy">
                     <article>
-                        <img src="IMG/Photos/groom.webp" alt="Noivo" loading="lazy">
                         <img src="IMG/Vector/Edson.webp" alt="Edson" loading="lazy">
                         <h3 class="txtBlack txt500 txtCenter">Nosso noivo Edson tem 22 anos, desde cedo notou seu talento com lógica ligada a tecnologia, extremamente esforçado e inteligente, alcançou senioridade mesmo sendo jovem. Edson sempre foi um rapaz racional, questionador e direto. Sempre foi um rapaz preocupado e protetor com sua família e amigos. Edson tentou fugir da verdade que o esperava e transformaria todo o seu ser. Não demorou muito para que seu encontro genuíno com Cristo acontecesse, ainda muito questionador, foi cedendo ao amor que Jesus o oferecia a todo instante, e através dele toda a sua família foi alcançada. Ele entendeu que a principal fonte entre a razão, ciência e o amor era Cristo, e é só disso que ele precisava.</h3>
                         <a href="https://www.instagram.com/edsonoliveirap2/" target='_blank'>

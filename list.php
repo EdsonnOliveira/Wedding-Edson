@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="CSS/list.css">
     </head>
     <body>
-        <section class="apresentation medium">
+        <section class="apresentation medium" id="presents">
             <?php include('Components/header.php') ?>
             <div class="reception">
                 <img id="gifts" src="IMG/Vector/gifts.webp" alt="" loading="lazy">

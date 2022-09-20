@@ -32,5 +32,5 @@
             <a id="closeMenu" class="button txtBluePrimary txt600">Fechar Menu</a>
         </ul>
     </nav>
-    <a class="button txtWhite" id="btnConfirm">Confirmar Presença</a>
+    <a href="presence.php" class="button txtWhite" id="btnConfirm">Confirmar Presença</a>
 </header>

@@ -60,6 +60,13 @@
     }
 }
 
+#they > #brideGroom {
+    width: 350px;
+    height: 350px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+
 #containerBrideGroom {
     flex-direction: row;
     justify-content: space-around;
@@ -73,13 +80,7 @@
     align-items: center;
 }
 
-#containerBrideGroom > article > img:first-child {
-    width: 60%;
-    object-fit: contain;
-    border-radius: 10px;
-}
-
-#containerBrideGroom > article > img:nth-child(2) {
+#containerBrideGroom > article > img{
     width: 150px;
     margin-top: 10px;
 }
@@ -88,6 +89,7 @@
     width: 80%;
     font-size: 17px;
     margin-bottom: 15px;
+    text-align: justify;
 }
 
 #containerBrideGroom > img {

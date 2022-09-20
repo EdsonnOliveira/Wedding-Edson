@@ -17,6 +17,16 @@
     align-items: center;
 }
 
+.apresentation#presents {
+    background: url('../IMG/Photos/backgroundPresents.webp');
+    background-position: 0 -400px;
+}
+
+.apresentation#confirmation {
+    background: url('../IMG/Photos/backgroundConfirmation.webp');
+    background-position: 0 -450px;
+}
+
 .apresentation.medium {
     height: 50vh;
 }
