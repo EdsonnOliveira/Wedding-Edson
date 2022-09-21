@@ -47,7 +47,7 @@
                 <img id="saveTheDate" src="IMG/Vector/SaveTheDate.webp" alt="" loading="lazy">
                 <img id="brideGroom" src="IMG/Vector/brideGroom.webp" alt="" loading="lazy">
                 <h1 class="txtWhite">12 de Novembro de 2022</h1>
-                <a class="button txtWhite">Confirmar Presença</a>
+                <a href="presence.php" class="button txtWhite">Confirmar Presença</a>
             </div>
         </section>
         <main>

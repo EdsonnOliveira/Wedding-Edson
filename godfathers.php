@@ -9,17 +9,17 @@
         <section class="apresentation medium">
             <?php include('Components/header.php') ?>
             <div class="reception medium">
-                <img id="saveTheDate" src="IMG/Vector/SaveTheDate.webp" alt="" loading="lazy">
+                <img id="gifts" src="IMG/Vector/godfathersText.webp" alt="" loading="lazy">
             </div>
         </section>
         <main>
             <section class="container" id="mission">
-                <img src="IMG/Vector/alliances.webp" alt="Aliancas" class="icon medium" loading="lazy">
+                <img src="IMG/Vector/mission.webp" alt="Aliancas" class="icon medium2" loading="lazy">
                 <img src="IMG/Vector/missionText.webp" alt="Missão" loading="lazy">
                 <h3 class="txtBlack txtCenter txt500">Como Padrinho/ Madrinha você terá a missão de orar por nós, nos acalmar, cuidar, nos alegrar, nos acompanhar e estar ao nosso lado em todos os momentos, sejam eles bons ou ruins, pois gostaríamos de partilhar cada momento de conquista com pessoas especiais como você. Também terá que nos aconselhar, ouvir e puxar nossas orelhas quando necessário. E não vale se afastar de nossas vidas, hein?</h3>
             </section>
             <section class="container" id="timeline">
-                <img src="IMG/Vector/alliances.webp" alt="Aliancas" class="icon medium" loading="lazy">
+                <img src="IMG/Vector/timeline.webp" alt="Cronograma" class="icon medium2" loading="lazy">
                 <img src="IMG/Vector/timelineText.webp" alt="Timeline" loading="lazy">
                 <section>
                     <article class="boxShadow">
@@ -34,7 +34,7 @@
                 </section>
             </section>
             <section class="container" id="visual">
-                <img src="IMG/Vector/tuxedo.webp" alt="Aliancas" class="icon medium" loading="lazy">
+                <img src="IMG/Vector/visual.webp" alt="Visual" class="icon medium" loading="lazy">
                 <img src="IMG/Vector/visualText.webp" alt="Visual" loading="lazy">
                 <h3 class="txtBlack txtCenter txt500">Queridos padrinhos,  neste dia tão importante para nós, queremos vocês tão deslumbrantes quanto os noivos!!! Escolhemos com muito carinho a cor de azul serenity mais clarinho para o vestido das madrinhas, no modelo que desejar... Já para os padrinhos, queremos que se sintam lindos, então o seu terno deve ser na cor azul marinho, com colete, camisa social branca e a gravata a serenity entregue na caixinha. Colocamos abaixo alguns modelos para vocês se inspirarem.<br><br>
                     Caprichem no visual, hein?!</h3>

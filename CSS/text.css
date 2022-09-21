@@ -11,6 +11,10 @@
     color: var(--black)
 }
 
+.txtRed {
+    color: red;
+}
+
 /* POSITION */
 .txtCenter {
     text-align: center;
