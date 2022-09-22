@@ -286,4 +286,14 @@
         </main>
     </body>
     <?php include('Components/footer.php') ?>
+    <script>
+        function run(){
+            var password = prompt("Por favor, informe a senha:");
+            if (password != 'AJDM&EPO22') {
+                document.body.innerHTML = '';
+                document.body.innerHTML = 'Senha incorret! Recarregue a página para tentar novamente.';
+            }
+        }
+        run();
+    </script>
 </html>
