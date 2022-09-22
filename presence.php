@@ -64,7 +64,6 @@
             <section class='container'>
                 <?php
                     if (isset($_GET['success'])) {
-                        header('location: https://api.whatsapp.com/send?phone=5561982030380&text=Olá%20Edson,%20como%20está?%20Passando%20para%20informar%20que%20acabei%20de%20solicitar%20a%20confirmação%20de%20presença%20do%20seu%20casamento%20no%20site.%20Por%20gentileza,%20pode%20verificar?');
                 ?>
                     <img src='IMG/Vector/atention.webp' alt='Atention' loading='lazy' />
                     <article class="boxShadow">
@@ -73,11 +72,12 @@
                             Pedimos encarecidamente, que caso depois de confirmado, você não consiga comparecer ao evento, comunique imediatamente um de nós.<br>
                             Esperamos você na festa!</h2>
                     </article>
-                    <a href="index.php" class="button btGreen txtWhite">Página Inicial</a>
-                    <!-- <script>
+                    <a href="index.php?on" class="button btBlue txtWhite">Página Inicial</a>
+                    <a href="https://api.whatsapp.com/send?phone=5561982030380&text=Olá%20Edson,%20como%20está?%20Passando%20para%20informar%20que%20acabei%20de%20solicitar%20a%20confirmação%20de%20presença%20do%20seu%20casamento%20no%20site.%20Por%20gentileza,%20pode%20verificar?" target='_blank' class="button btGreen txtWhite">Avisar no Whatsapp</a>
+                    <script>
                         window.open('https://api.whatsapp.com/send?phone=5561982030380&text=Olá%20Edson,%20como%20está?%20Passando%20para%20informar%20que%20acabei%20de%20solicitar%20a%20confirmação%20de%20presença%20do%20seu%20casamento%20no%20site.%20Por%20gentileza,%20pode%20verificar?',
                                     '_blank')
-                    </script> -->
+                    </script>
                 <?php
                     } else {
                 ?>

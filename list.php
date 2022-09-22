@@ -126,7 +126,7 @@
                             <img src="IMG/Vector/brideGroom2.png" alt="" id="brideGroom" loading='lazy'>
                             <div>
                                 <a type="button" href="list.php" class="button btBlueSecondary txtWhite btBack">Continuar na Lista</a>
-                                <a name="btType" href="index.php" class="button btGreen txtWhite" id="btPix">Página Inicial</a>
+                                <a name="btType" href="index.php?on" class="button btGreen txtWhite" id="btPix">Página Inicial</a>
                             </div>
                         </section>
                     </form>
