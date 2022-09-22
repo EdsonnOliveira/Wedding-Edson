@@ -288,7 +288,7 @@
     <?php include('Components/footer.php') ?>
     <script>
         function run(){
-            var password = prompt("Por favor, informe a senha:");
+            var password = prompt("Por favor, informe a senha de acesso descrito no convite:");
             if (password != 'AJDM&EPO22') {
                 document.body.innerHTML = '';
                 document.body.innerHTML = 'Senha incorret! Recarregue a página para tentar novamente.';
