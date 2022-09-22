@@ -27,3 +27,13 @@ article {
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
+@media only screen and (max-width: 700px) {
+    form {
+        width: calc(100% - 40px);
+    }
+
+    #imgConfirmation {
+        width: 350px;
+    }
+}
