@@ -20,3 +20,10 @@ form label > input {
 form > label > button {
     font-size: 20px;
 }
+
+article {
+    max-width: 600px;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

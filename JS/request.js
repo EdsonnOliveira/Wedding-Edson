@@ -18,6 +18,7 @@ $("#btAddInput").click(() => {
                 </label>`
 
     $("#inputs").append(input)
+    $("#count").val(order)
 })
 
 function keyPress(input) {

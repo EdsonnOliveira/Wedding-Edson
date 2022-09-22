@@ -20,6 +20,10 @@
     text-align: center;
 }
 
+.txtJust {
+    text-align: justify;
+}
+
 /* TYPE */
 .txtTitle {
     font-size: 40px;
