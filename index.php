@@ -48,6 +48,7 @@
                 <img id="brideGroom" src="IMG/Vector/brideGroom.webp" alt="" loading="lazy">
                 <h1 class="txtWhite">12 de Novembro de 2022</h1>
                 <a href="presence.php" class="button txtWhite">Confirmar Presença</a>
+                <a href="list.php" class="button btBlue txtWhite">Lista de presentes</a>
             </div>
         </section>
         <main>
