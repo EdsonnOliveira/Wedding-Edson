@@ -72,14 +72,25 @@
                             Pedimos encarecidamente, que caso depois de confirmado, você não consiga comparecer ao evento, comunique imediatamente um de nós.<br>
                             Esperamos você na festa!</h2>
                     </article>
-                    <a href="index.php?on" class="button btBlue txtWhite">Página Inicial</a>
                     <a href="https://api.whatsapp.com/send?phone=5561982030380&text=Olá%20Edson,%20como%20está?%20Passando%20para%20informar%20que%20acabei%20de%20solicitar%20a%20confirmação%20de%20presença%20do%20seu%20casamento%20no%20site.%20Por%20gentileza,%20pode%20verificar?" target='_blank' class="button btGreen txtWhite">Avisar no Whatsapp</a>
+                    <a href="index.php" class="button btBlue txtWhite">Página Inicial</a>
                     <script>
                         window.open('https://api.whatsapp.com/send?phone=5561982030380&text=Olá%20Edson,%20como%20está?%20Passando%20para%20informar%20que%20acabei%20de%20solicitar%20a%20confirmação%20de%20presença%20do%20seu%20casamento%20no%20site.%20Por%20gentileza,%20pode%20verificar?',
                                     '_blank')
                     </script>
                 <?php
                     } else {
+                ?>
+                <?php
+                    if (!isset($_POST['confirm'])) {
+                ?>
+                <img src='IMG/Vector/requestConfirmation.webp' alt='Confirmation' loading='lazy' id='imgConfirmation' />
+                <form method="post">
+                    <input type="password" name="password" placeholder="Insira a Senha" class="txt400" required>
+                    <input type="submit" name="confirm" class="button btBlue txtWhite txt500" value="Confirmar">
+                </form>
+                <?php
+                    } else if ($_POST['password'] == 'AJDM&EPO22') {
                 ?>
                 <img src='IMG/Vector/requestConfirmation.webp' alt='Confirmation' loading='lazy' id='imgConfirmation' />
                 <form method="post">
@@ -94,6 +105,18 @@
                     </label>
                     <input type="submit" name="request" class="button btBlue txtWhite txt500" value="Solicitar Confirmação">
                 </form>
+                <?php
+                    } else {
+                ?>
+                <img src='IMG/Vector/requestConfirmation.webp' alt='Confirmation' loading='lazy' id='imgConfirmation' />
+                <form method="post">
+                     <input type="password" name="password" placeholder="Insira a Senha" class="txt400" required>
+                     <h3 class="txtRed txt500">* Senha incorreta, tente novamente</h3>
+                     <input type="submit" name="confirm" class="button btBlue txtWhite txt500" value="Confirmar">
+                 </form>
+                <?php
+                    }
+                ?>
                 <?php
                     }
                 ?>

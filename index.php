@@ -9,11 +9,11 @@
         <section class="apresentation">
             <header>
                 <nav id="navDesktop">
-                    <a href="index.php?on">
+                    <a href="index.php">
                         <img src="IMG/Logo/Simples-2.webp" alt="" loading="lazy">
                     </a>
                     <ul>
-                        <li><a href="index.php?on">Início</a></li>
+                        <li><a href="index.php">Início</a></li>
                         <li><a onclick="scrollToElement('#they')">Noivos</a></li>
                         <li><a onclick="scrollToElement('#history')">História</a></li>
                         <li><a onclick="scrollToElement('#honor')">Pessoas</a></li>
@@ -21,7 +21,7 @@
                     </ul>
                 </nav>
                 <nav id="navMobile">
-                    <a href="index.php?on">
+                    <a href="index.php">
                         <img src="IMG/Logo/Simples-2.webp" alt="" loading="lazy">
                     </a>
                     <figure>
@@ -33,10 +33,10 @@
                         <div>
                             <img src="IMG/Logo/Completa.webp" alt="" loading="lazy">
                         </div>
-                        <li><a href="index.php?on">Início</a></li>
-                        <li><a href="index.php?on#they">Noivos</a></li>
-                        <li><a href="index.php?on#history">História</a></li>
-                        <li><a href="index.php?on#honor">Pessoas</a></li>
+                        <li><a href="index.php">Início</a></li>
+                        <li><a href="index.php#they">Noivos</a></li>
+                        <li><a href="index.php#history">História</a></li>
+                        <li><a href="index.php#honor">Pessoas</a></li>
                         <li><a href="list.php">Presentes</a></li>
                         <a id="closeMenu" class="button txtBluePrimary txt600">Fechar Menu</a>
                     </ul>
@@ -288,19 +288,5 @@
     </body>
     <?php
         include('Components/footer.php');
-        if (!isset($_GET['on'])) {
-    ?>
-    <script>
-        function run(){
-            var password = prompt("Por favor, informe a senha de acesso descrito no convite:");
-            if (password != 'AJDM&EPO22') {
-                document.body.innerHTML = '';
-                document.body.innerHTML = 'Senha incorret! Recarregue a página para tentar novamente.';
-            }
-        }
-        run();
-    </script>
-    <?php
-        }
     ?>
 </html>
