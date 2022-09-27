@@ -68,8 +68,8 @@
                     <img src='IMG/Vector/atention.webp' alt='Atention' loading='lazy' />
                     <article class="boxShadow">
                         <h2 class='txtBlack txtCenter txt400'>Agradecemos imensamente por solicitar confirmação de presença no nosso casamento.<br>
-                            Em breve, nós (noivos) validaremos s solicitação através da mensagem enviada ao WhatsApp.<br>
-                            Pedimos encarecidamente, que caso depois de confirmado, você não consiga comparecer ao evento, comunique imediatamente um de nós.<br>
+                            Em breve, nós (noivos) validaremos a solicitação através da mensagem enviada ao WhatsApp.<br>
+                            Pedimos encarecidamente que, caso depois de confirmado, você não consiga comparecer ao evento, comunique ,imediatamente, um de nós.<br>
                             Esperamos você na festa!</h2>
                     </article>
                     <a href="https://api.whatsapp.com/send?phone=5561982030380&text=Olá%20Edson,%20como%20está?%20Passando%20para%20informar%20que%20acabei%20de%20solicitar%20a%20confirmação%20de%20presença%20do%20seu%20casamento%20no%20site.%20Por%20gentileza,%20pode%20verificar?" target='_blank' class="button btGreen txtWhite">Avisar no Whatsapp</a>
@@ -86,7 +86,7 @@
                 ?>
                 <img src='IMG/Vector/requestConfirmation.webp' alt='Confirmation' loading='lazy' id='imgConfirmation' />
                 <form method="post">
-                    <input type="password" name="password" placeholder="Insira a Senha" class="txt400" required>
+                    <input type="password" name="password" placeholder="Insira a Senha descrita no convite" class="txt400" required>
                     <input type="submit" name="confirm" class="button btBlue txtWhite txt500" value="Confirmar">
                 </form>
                 <?php
