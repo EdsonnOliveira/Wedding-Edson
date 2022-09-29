@@ -281,6 +281,11 @@
                                 <h1 class="txtWhite txtCenter txt500">Isabela</h1>
                                 <h2 class="txtWhite txtCenter txt300">Daminha</h2>
                             </article>
+                            <article class="person">
+                                <img src="IMG/Persons/Yasmin.webp" alt="" loading="lazy">
+                                <h1 class="txtWhite txtCenter txt500">Yasmin</h1>
+                                <h2 class="txtWhite txtCenter txt300">Daminha</h2>
+                            </article>
                         </div>
                 </section>
             </section>
