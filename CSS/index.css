@@ -173,8 +173,11 @@
 
 @media only screen and (max-width: 800px) {
     .honor {
-        height: max-content;
         background-attachment: local;
+    }
+
+    #honor {
+        height: max-content;
     }
 
     .honor > img:first-child {
