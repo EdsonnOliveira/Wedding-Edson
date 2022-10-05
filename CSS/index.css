@@ -127,7 +127,8 @@
 
 @media only screen and (max-width: 800px) {
     #history {
-        background-position: -350px;
+        background-size: 300px 300px;
+        /* background-position: -350px; */
     }
 
     #history > h4 {
