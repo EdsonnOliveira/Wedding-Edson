@@ -172,7 +172,7 @@
 }
 
 @media only screen and (max-width: 800px) {
-    #honor {
+    .honor {
         height: max-content;
         background-attachment: local;
     }
