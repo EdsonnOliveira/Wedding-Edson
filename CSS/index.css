@@ -129,7 +129,7 @@
     #history {
         /* background-size: 100% 50%; */
         background-attachment: local;
-        background-position: top;
+        /* background-position: top -200px; */
     }
 
     #history > h4 {
