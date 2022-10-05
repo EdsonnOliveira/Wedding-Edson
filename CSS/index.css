@@ -127,7 +127,8 @@
 
 @media only screen and (max-width: 800px) {
     #history {
-        background-size: 350px 350px;
+        background-size: 100% 50%;
+        background-attachment: local;
         background-position: top;
     }
 
