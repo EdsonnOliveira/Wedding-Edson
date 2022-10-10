@@ -16,7 +16,7 @@
             </div>
         </section>
         <main>
-            <section class='container'>
+            <section class='container' style="align-items: initial">
                 <h1 class='txtBlack txtCenter'>Lista de Convidados</h1>
                 <?php
                     $SQL = $conn->prepare('SELECT sum(count) as qt FROM presence');
