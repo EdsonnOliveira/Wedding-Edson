@@ -43,7 +43,7 @@
                     </thead>
                     <tbody>
                     <?php
-                        $SQL = $conn->prepare('SELECT * FROM presence');
+                        $SQL = $conn->prepare('SELECT * FROM presence ORDER BY ID');
                         $SQL->execute();
 
                         $List = $SQL->fetchAll();
@@ -88,7 +88,7 @@
                     </thead>
                     <tbody>
                     <?php
-                        $SQL = $conn->prepare('SELECT * FROM list ORDER BY GiverType DESC');
+                        $SQL = $conn->prepare('SELECT * FROM list WHERE GiverType in (1,2) ORDER BY ID, GiverType DESC');
                         $SQL->execute();
 
                         $List = $SQL->fetchAll();
